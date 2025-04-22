@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulb ON/OFF</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            margin-top: 50px;
+        }
+        img {
+            width: 200px;
+            height: auto;
+        }
+        button {
+            font-size: 20px;
+            padding: 10px 20px;
+            margin-top: 20px;
+            cursor: pointer;
+            border: none;
+            background-color: #28a745;
+            color: white;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Bulb ON/OFF</h1>
+    <img id="bulb" src="https://www.w3schools.com/js/pic_bulboff.gif" alt="Bulb">
+    <br>
+    <button onclick="toggleBulb()">Turn ON</button>
+
+    <script>
+        let isBulbOn = false;
+
+        function toggleBulb() {
+            let bulb = document.getElementById("bulb");
+            let button = document.querySelector("button");
+
+            if (isBulbOn) {
+                bulb.src = "https://www.w3schools.com/js/pic_bulboff.gif";
+                button.textContent = "Turn ON";
+                button.style.backgroundColor = "#28a745";
+            } else {
+                bulb.src = "https://www.w3schools.com/js/pic_bulbon.gif";
+                button.textContent = "Turn OFF";
+                button.style.backgroundColor = "#dc3545";
+            }
+
+            isBulbOn = !isBulbOn;
+        }
+    </script>
+
+</body>
+</html>

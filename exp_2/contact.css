@@ -1,0 +1,62 @@
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #fce4ec; 
+    text-align: center;
+    padding: 50px;
+    transition: background 0.5s ease-in-out;
+    color: #1b3a34; 
+}
+
+/* Container */
+.container {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    width: 50%;
+    margin: auto;
+    border: 3px solid #b5c18e; 
+    transition: transform 0.3s ease-in-out;
+}
+
+.container:hover {
+    transform: scale(1.02);
+}
+
+/* Heading */
+h1 {
+    color: #1b3a34; 
+    font-size: 2em;
+}
+
+/* Paragraph */
+p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Back to Home Button */
+a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    background: #b5c18e;
+    border-radius: 8px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease-in-out, transform 0.2s;
+}
+
+a:hover {
+    background: #9dac7a; 
+    transform: scale(1.1);
+}

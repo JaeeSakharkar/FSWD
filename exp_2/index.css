@@ -1,0 +1,112 @@
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background: #fce4ec; 
+    text-align: center;
+    padding: 30px;
+    transition: background 0.5s ease-in-out;
+    color: #1b3a34; 
+}
+
+/* Header */
+header {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #1b3a34; 
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.15);
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Introduction Section */
+.intro {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 15px;
+    border: 3px solid #b5c18e;
+    background: #ffffff; 
+    margin: 20px auto;
+    border-radius: 12px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+    color: #1b3a34; 
+}
+
+.intro:hover {
+    transform: scale(1.03);
+}
+
+/* Sections */
+.section {
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 3px solid #b5c18e; 
+    background: #ffffff; 
+    border-radius: 12px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+    color: #1b3a34; 
+    transition: transform 0.3s ease-in-out, background 0.3s ease-in-out;
+}
+
+.section:hover {
+    transform: scale(1.03);
+}
+
+/* Show More/Less Button */
+#show-more-btn {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    border: none;
+    background: #b5c18e; 
+    color: white;
+    border-radius: 8px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease-in-out, transform 0.2s;
+}
+
+#show-more-btn:hover {
+    background: #9dac7a; 
+    transform: scale(1.1);
+}
+
+/* Contact Button */
+#contact-btn {
+    font-size: 16px;
+    padding: 12px 24px;
+    font-weight: bold;
+    cursor: pointer;
+    background: #b5c18e; 
+    color: white;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease-in-out, transform 0.2s;
+}
+
+#contact-btn:hover {
+    background: #9dac7a; 
+    transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+    font-size: 14px;
+    border: 2px solid #b5c18e;
+    color: #1b3a34; 
+    border-radius: 8px;
+    width: fit-content;
+    margin: 25px auto;
+    padding: 12px;
+    background: #ffffff; 
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease-in-out;
+}
+
+
